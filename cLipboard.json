@@ -1,0 +1,1 @@
+{"python": "def load_data(filepath):\r\n    try:\r\n        with open(filepath, \"r\") as f:\r\n            data = json.load(f)\r\n            return data\r\n    except:\r\n        return {}", "test ": "key = input(\"Enter a key: \")"}
